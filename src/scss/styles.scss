@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+$sidebar-bg-color: #0c1e35;
+$submenu-bg-color: rgba(255, 255, 255, 0.05);
+$submenu-bg-color-collapsed: rgba(#0c1e35, 0.95);
+$sidebar-color: #b3b8d4;
+$highlight-color: #dee2ec;
+$icon-bg-color: rgba(255, 255, 255, 0.05);
+$icon-size: 35px;
+
+@import './partials/animation';
+@import './partials/sidebar';
+@import './partials/menu';
+@import './partials/popperArrow';
+@import './partials/reactSlidedown';
+
+.badge {
+    padding: 3px 6px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+
+    &.red {
+        color: #ffffff;
+        background: #d63030;
+    }
+
+    &.gray {
+        color: #ffffff;
+        background: #777777;
+    }
+
+    &.yellow {
+        color: #000000;
+        background: #ffd331;
+    }
+}
